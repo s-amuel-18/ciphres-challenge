@@ -33,6 +33,12 @@ Ejecuta el siguiente comando para instalción de dependencias.
 $ composer install && npm install
 ```
 
+Generar llave de acceso.
+
+```bash
+$ php artisan key:generate
+```
+
 Ejecuta las migraciones del proyecto.
 
 ```bash
@@ -52,3 +58,9 @@ $ npm run dev
 ```
 
 Si todo salió bien ya puedes usar la aplicación!!
+
+## Credenciales de usuarios
+
+Admin: test@example.com 11111111
+
+Client: client@example.com 11111111
